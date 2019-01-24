@@ -8,24 +8,12 @@
 
 EngineerVoice:
 	Inherits: ^InfantryDeath
-	Prefixes:
-		america: iena
-		germany: iena
-		england: iena
-		france: iena
-		korea: iena
-		cuba: iens
-		libya: iens
-		iraq: iens
-		russia: iens
-		vietnam: iens
 	Voices:
-		#TODO: Split this off to separate voiceovers.
-		Select: sea, seb, sec, sed
-		Move: moa, mob, moc
-		Action: ata, atb, atc
-		Feedback: fea, feb, fec
-		Die: dia, dib, dic, did
+		Select: dd_engsel_1, dd_engsel_2
+		Move: dd_engsel_1, dd_engsel_2
+		Action: dd_engsel_1, dd_engsel_2
+		Feedback: dd_engsel_1, dd_engsel_2
+		Die: dd_engsel_1, dd_engsel_2
 		# [EngAllPowerDown] Sounds = ienapow
 		DisablePrefixes: Zapped, Melted, PsyCrush
 
@@ -236,7 +224,7 @@ FlamethrowerVoice:
 DogVoice:
 	DefaultVariant: .wav
 	Voices:
-		Select: idogsela
+		Select: dd_dogsel_1, idogsela
 		Move: idogmova
 		Attack: idogatca, idogmova # move sound?
 		Feedback: idogfea, idogfeb, idogfec
